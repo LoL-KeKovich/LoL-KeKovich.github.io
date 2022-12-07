@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Современные операционные системы</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="main2.css">
+    <script src="main3.js"></script>
+  </head>
+  <body>
+    <div class="burger"><span></span></div>
+    <div class="menu">
+      <nav>
+        <a href="#main">Основное</a>
+        <a href="#types">Виды</a>
+        <a href="#foot">Контакты</a>
+      </nav>
+    </div>
+    <script>
+    document.querySelector('.burger').addEventListener('click', function(
+      ){
+          document.querySelector('.burger span').classList.toggle('active');
+          document.querySelector('.menu').classList.toggle('animate');
+      })
+    </script>
+    <header>
+        <h2>Добро пожаловать!</h2>
+        <img src="pngwing.com.png">
+    </header>
+    <div class="mtext">
+        <h2 id="main">Основная информация</h2>
+        <p>В наши дни создаётся всё больше и больше различных операционных систем. Каждый год на конференциях типа SOSP, OSDI, EuroSys и HotOS <br>
+          энтузиасты представляют десятки новых операционных систем. Ближайшая конференция EuroSys проходила 5–8 апреля 2022 года в Ренне. <br>
+          В России тоже есть научно-практическая конференция по операционным системам: OS DAY. Например, на OS DAY 2021 рассказывали про ОС «Аврора» <br>
+          (инфраструктура разработки, доверенная среда исполнения Аврора TEE и механизмы безопасности), KasperskyOS, QP ОС, РЕД ОС и др. Единый реестр <br>
+          российских программ для электронных вычислительных машин и баз данных по классу «Операционные системы» содержит 24 записи Любая система — это <br>
+          программно-аппаратный комплекс. То есть ОС должна поддерживать различное оборудование на уровне драйверов. Или работать на собственной платформе. <br>
+          Поэтому параллельно с ОС продолжается разработка российских процессоров. Из серверных CPU: 32-ядерный «Эльбрус-32С» (6–7 нм), 48-ядерный «Байкал-S», «Байкал-S» (6 нм), <br>
+          процессор Yadro и др. В России производятся материнские платы собственного дизайна (для «Эльбрусов»). Теоретически в будущем возможно создание серверов на своей элементной базе <br>
+          с собственной ОС.</p>
+    </div>
+    <div class="species">
+      <h2 id="types">Виды современных ОС</h2>
+      <div class="cards">
+          <div class="card1">
+            <div class = napolnenie>
+              <h3>Essence OS</h3>
+              <p>Представлена в конце 2021</p>
+              <a href="Essence.html">Узнать больше</a>
+            </div>
+          </div>
+          <div class="card2">
+            <div class = napolnenie>
+              <h3>Serenity OS</h3>
+              <p>В стиле 90-х</p>
+              <a href="Serenity.html">Узнать больше</a>
+            </div>
+          </div>
+          <div class="card3">
+            <div class = napolnenie>
+              <h3>Windows 11</h3>
+              <p>Всем известная</p>
+              <a href="Windows11.html">Узнать больше</a>
+            </div>
+          </div>
+          <div class="card4">
+            <div class = napolnenie>
+              <h3>Аврора</h3>
+              <p>Российская ОС</p>
+              <a href="Avrora.html">Узнать больше</a>
+            </div>
+          </div>
+      </div>
+    </div>
+    <footer>
+        <h2 id="foot">Контактные данные</h2>
+        <div class="parag">
+          <p>Выполнил студент группы ИКБО-02-21</p>
+          <p>Астахов</p>
+          <p>Никита</p>
+          <p>Иванович</p>
+        </div>
+        <div class="socials">
+          <a href="https://vk.com" class="vk"><img src="vkforsait.png"></a>
+          <a href="tel:+79252252525" class="phone">+79252252525</a>
+          <a href="mailto:pochta@pochta.com" class="mail">Почта</a>
+        </div>
+    </footer>
+  </body>
+</html>

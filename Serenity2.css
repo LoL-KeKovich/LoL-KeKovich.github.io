@@ -1,0 +1,167 @@
+body {
+    background: rgb(255, 210, 200);
+}
+h2 {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+.go-top {
+    position: fixed; 
+    right: 20px;
+    top: 50%; 
+    transform: translateY(-50%); 
+    cursor: pointer; 
+    font-size: 20px;
+    color: rgb(250, 222, 96);
+    border: 1px solid rgba(0, 51, 153, 0.5);
+    background-color: rgb(250, 34, 255);
+    padding: 15px 10px;
+    opacity: 80%;
+    border-radius: 10px;
+  }
+.go-top:hover {
+    color: red;
+    border: 1px solid rgba(0, 51, 153, 0.8);
+    background-color: rgb(250, 34, 255);
+}
+.go-top--show {
+    display: block;
+}
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgb(128, 172, 238);
+    border-radius: 20px;
+    border-left: 10px;
+    border-right: 10px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-style: groove;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.info p {
+    color: black;
+    font-size: 20px;
+}
+.imgs {
+    background: rgb(128, 172, 238) ;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 20px;
+    border-left: 10px;
+    border-right: 10px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-style: groove;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+.imgs img {
+    height: 50%;
+    width: 50%;
+}
+footer {
+    background: rgb(227, 66, 150);
+    border-radius: 15px;
+    border-top: 5px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: groove;
+}
+footer h2 {
+    text-align: center;
+}
+footer .parag {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+footer p {
+    color: black;
+    font-size: 20px;
+}
+.socials {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 10px 0px; 
+    grid-template-areas: 
+    ". . vk . ."
+    "tel tel tomain mail mail"; 
+}
+.vk { 
+    grid-area: vk; 
+    width: 50px;
+    height: 50px;
+    left:50%;
+}
+.phone {
+     grid-area: phone; 
+     width: 100px;
+     height: 25px;
+}
+.mail { 
+    grid-area: mail;
+    width: 50px;
+    height: 25px; 
+}
+.tomain {
+    grid-area: tomain;
+    width: 60px;
+    height: 25px;
+}
+.socials img {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 100%;
+}
+.socials a {
+    text-decoration: none;
+    color: blue;
+}
+@media (max-width: 800px) {
+    h2 {
+        font-size: 30px;
+    }
+    .imgs {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .parag {
+        flex-direction: column;
+        align-items: center;
+    }
+    .socials {
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+        grid-template-rows: 1fr 1fr 1fr 1fr; 
+        gap: 10px 0px; 
+        grid-template-areas: 
+        ". . vk . ."
+        ". . tomain . ."
+        ". . tel . ."
+        ". . mail . ."; 
+    }
+    .vk { 
+        grid-area: vk; 
+    }
+    .tomain { 
+        grid-area: tomain; 
+    }
+    .tel { 
+        grid-area: tel; 
+    }
+    .mail { 
+        grid-area: mail; 
+    }
+}
