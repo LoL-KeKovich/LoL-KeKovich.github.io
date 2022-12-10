@@ -135,6 +135,7 @@ h2 {
     overflow: hidden;
     max-height: 300px;
     min-width: 125px;
+    user-select: none;
 }
 .card2 {
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(91,100,194,0.23993347338935578) 31%, rgba(0,212,255,1) 100%);
@@ -145,6 +146,7 @@ h2 {
     overflow: hidden;
     max-height: 300px;
     min-width: 125px;
+    user-select: none;
 }
 .card3 {
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(91,100,194,0.23993347338935578) 31%, rgba(0,212,255,1) 100%);
@@ -155,6 +157,7 @@ h2 {
     overflow: hidden;
     max-height: 300px;
     min-width: 125px;
+    user-select: none;
 }
 .card4 {
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(91,100,194,0.23993347338935578) 31%, rgba(0,212,255,1) 100%);
@@ -165,6 +168,7 @@ h2 {
     overflow: hidden;
     max-height: 300px;
     min-width: 125px;
+    user-select: none;
 }
 .napolnenie {
     opacity: 0;
