@@ -60,7 +60,7 @@ body {
     border-radius: 20px;
 }
 .menu.animate {
-    right: 0;
+    right: 50px;
 }
 header {
     display: flex;
